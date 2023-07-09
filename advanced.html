@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="styles_a.css">
+</head>
+
+<body>
+
+    <div id="head">
+        <div class="img">
+            <img src="googlelogo_light_color_92x30dp.png" alt="Google">
+        </div>
+        <div class="a">
+            <a href="index.html">
+                <p>Home</p>
+            </a>
+            <a href="imgsearch.html">
+                <p>Images</p>
+            </a>
+        </div>
+    </div>
+    <form action="https://google.com/search">
+
+        <div class="label"><label>all these words:</label></div>
+        <div class="input"><input type="text" name="as_q"></div><br>
+
+        <div class="label"><label>this exact word or phrase:</label></div>
+        <div class="input"><input type="text" name="as_epq"></div><br>
+
+        <div class="label"><label>any of these words:</label></div>
+        <div class="input"><input type="text" name="as_oq"></div><br>
+
+        <div class="label"><label>none of these words:</label></div>
+        <div class="input"><input type="text" name="as_eq"></div><br>
+
+        <input type="submit" value="Search">
+    </form>
+</body>
+
+</html>
